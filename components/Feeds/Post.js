@@ -149,7 +149,7 @@ function Post({ id, img, userImg, caption, username }) {
             <img
               src={like?.data()?.image}
               alt=''
-              className='w-10 h-10 rounded-full cursor-pointer '
+              className='w-10 h-10 rounded-full cursor-pointer flex-shrink-0'
             />
             // <h1>Hello</h1>
           ))}

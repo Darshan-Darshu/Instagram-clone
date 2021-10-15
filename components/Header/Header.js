@@ -121,7 +121,12 @@ function Header() {
                   />
                 </>
               ) : (
-                <button onClick={signIn}>Sign In</button>
+                <button
+                  className='text-sm w-12 md:text-md'
+                  onClick={signIn}
+                >
+                  Sign In
+                </button>
               )}
             </div>
           </div>
